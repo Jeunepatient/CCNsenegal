@@ -1,0 +1,15 @@
+.app {
+  margin: 0;padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 0.46rem;
+  background-color: #d1d4dd;
+ 
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(127, 255, 212);
+  background-color: #afafaf;
+}

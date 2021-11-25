@@ -1,0 +1,31 @@
+.card {
+    padding: 30px 8px;
+    font-size: 'Questrial';
+    grid-column:  span 4;
+    height: 150px;
+    align-self: center;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 5px 9px 21px 0 rgb(46, 61, 73,  20%);
+    box-sizing: border-box;
+}
+
+.container {
+   
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap:55px ;
+}
+
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Magmawave caps';
+    font-size: 19px;
+}

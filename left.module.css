@@ -1,0 +1,111 @@
+.leftside {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 17%;
+    top: 0;
+    bottom: 0;
+    left : 0;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, .9);
+    color : #222;
+    box-sizing: border-box;
+    border-right: 2px solid #efefef;
+}
+.container {
+    padding : 0px 0 50px 0px;
+    box-sizing: border-box;
+}
+/**********************logo***********************/
+
+.logocon {
+    margin-top: 15px;
+   display: flex;
+   column-gap: 8px;
+    height: 48px;
+    background : #efefef;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logocon .user i{
+    font-size: 35px;
+    line-height: 45px;
+}
+.logo{
+    display: none;
+    background: url('../logo/WhatsApp\ Image\ 2021-11-22\ at\ 18.13.09.jpeg');
+    background-position: center center;
+    background-size: cover;
+    height: 73px;
+   
+}
+.img {
+    background: url('../img/jeune.jpg') ;
+    background-position: center center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    line-height: 45px;
+}
+.logomakeup {
+    font-size: 20px;
+    padding : 4px 2px;
+    text-align: center;
+}
+/********************leftside nav**********************/
+.nav {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+.top {
+    padding: 10px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+ li {
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Questrial';
+    line-height: 2.8em;
+    font-size: 18px;
+    box-sizing: border-box;
+    position: relative;
+}
+li.actif {
+    background-color: rgb(126, 235, 156, .65);
+    background-color: rgb(0, 36, 105);
+    background-color: #7fffd4;
+    color : #222;
+    
+    padding : 8px;
+    border-radius: 25px 0 0 25px;
+    line-height: 1.8rem;
+    box-sizing: border-box;
+    color: rgb(8, 71, 8);
+    
+    border-right: 3px solid rgb(12, 129, 12);
+    /* border-right: 3px solid rgb(223, 1, 0); */
+}
+a {
+    text-decoration: none;
+}
+
+i {
+    margin-right: 14px;
+}
+/************************output subsettings****************************/
+.showparams {
+    margin-left: 70px;
+  }
+  .showparams  ul  li {
+    font-family: 'Poppins';
+    line-height: 2.4rem;
+    font-size: 16px;
+  }

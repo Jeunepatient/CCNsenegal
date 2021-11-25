@@ -1,0 +1,33 @@
+.home {
+    margin-left: 17%;
+    width: calc(100% - 17%);
+}
+.container {
+    display: block;
+    width: 100%;
+}
+.both {
+    grid-column: span 8;
+    
+    box-shadow: 5px 9px 21px 0 rgb(46, 61, 73,  20%);
+}
+.chart {
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap : 50px;
+}
+.pie {
+    grid-column: span 4;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 9px 21px 0 rgb(46, 61, 73,  20%);
+    height: auto;
+}
+
+.title {
+    font-family: 'Magmawave caps';
+    font-size: 18px;
+    padding : 18px 0 12px 20px;
+}

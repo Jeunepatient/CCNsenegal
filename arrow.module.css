@@ -1,0 +1,26 @@
+/*************arrow***********/
+/***************arrow control********************/
+
+ 
+  .arrowright, .arrowleft, .arrowbottom, .arrowtop {
+    position: absolute;
+  
+    top: 45%;
+    left: 93%;
+    z-index: 2;
+    border: solid rgb(5, 104, 5);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    /* border-color: #fff; */
+    
+  }
+  .arrowbottom {
+      transform: rotate(45deg);
+  }
+
+
+  .arrowtop {
+    transform: rotate(-135deg);
+}
